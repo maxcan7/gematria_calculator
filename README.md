@@ -5,13 +5,13 @@ This script calculates the Gematria value of words.
 It uses the Mispar gadol cipher, a variant on the standard encoding
 where certain letters at the end of the word have a different value.
 
-Popular Gematria calculators online often assume English letter indices
+Popular Gematria calculators online often assume English character indices
 even when nominally being "Hebrew" calculators. This calculator maps
 the Latin characters of the English alphabet to their closest Hebrew
 equivalent.
 
 The unit tests in gematria_test.py demonstrate the efficacy of the
-Gematria value mappings of these letters, and the letter_idx_mappings show
+Gematria value mappings of these characters, and the char_idx_mappings show
 the index mappings.
 
 https://en.wikipedia.org/wiki/Gematria
